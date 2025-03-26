@@ -6,6 +6,10 @@ import numpy as np
 
 # zuordnung_plz_ort.csv
 
-df = pd.read_json('data/nrw-plz.json')
+df = pd.read_json('data/47-foo.json')
+
+
 print(df.results.iloc[0]['geometry'])
+
+
 
